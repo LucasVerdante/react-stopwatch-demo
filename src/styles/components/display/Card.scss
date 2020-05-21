@@ -1,0 +1,19 @@
+@import '../../global/colors.scss';
+
+.card {
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+
+  &--header {
+    padding: 0.7rem 1rem;
+
+    > h5 {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+
+  &--body {
+    padding: 1rem;
+  }
+}

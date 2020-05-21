@@ -1,0 +1,26 @@
+.stopwatch {
+  //width: 350px;
+
+  &--time-display {
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  &--buttons {
+    display: flex;
+    justify-content: center;
+
+    > button {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: 100px;
+    }
+  }
+
+  &--lap-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}

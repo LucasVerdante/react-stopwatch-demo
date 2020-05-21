@@ -1,0 +1,13 @@
+@import '../../global/colors.scss';
+
+.array-table {
+  > thead > tr > th {
+    padding: 0.2rem 1rem;
+    text-align: center;
+  }
+
+  > tbody > tr > td {
+    padding: 0.5rem 1rem 0;
+    text-align: center;
+  }
+}

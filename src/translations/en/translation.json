@@ -1,0 +1,28 @@
+{
+  "pageTitle": "React Stopwatch Demo",
+  "section1":{
+    "title": "One Stopwatch..."
+  },
+  "section2": {
+    "title": "Two More!"
+  },
+  "components": {
+    "stopwatch": {
+      "title": "Stopwatch",
+      "buttonLabels": {
+        "start": "Start",
+        "stop": "Stop",
+        "lap": "Lap",
+        "reset": "Reset"
+      },
+      "lapTable": {
+        "caption": "Stopwatch lap times.",
+        "lapCol": "Lap",
+        "timeCol": "Time"
+      }
+    },
+    "themeToggle": {
+      "buttonLabel": "Toggle Theme"
+    }
+  }
+}
